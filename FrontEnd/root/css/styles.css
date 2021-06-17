@@ -1,0 +1,29 @@
+#img-header{
+    align-items: center;
+}
+
+.titulos{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+#contenedor{
+    margin: 6rem;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#footer{
+    background-color: #005677;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#margen-footer{
+    margin:2em;
+}
