@@ -1,0 +1,157 @@
+h1{
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+    color: #FFFFFF;
+}
+
+h4{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+#header{
+    background-color: #222222;
+    color: #F3F3F3;
+    position: relative;
+}
+
+#lista1{
+    list-style: none;
+}
+
+#lista2{
+    list-style: none;
+}
+
+#nav{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    list-style: none;
+}
+
+#seccionimagen{
+    background-image: url(/img/unknown.png);
+    font-family: "Roboto", sans-serif;
+    background-repeat: no-repeat;
+    width: 1025px;
+    height: 409px;
+    left: calc(50% - 1025px/2 + 0.5px);
+    top: 81px;
+}
+
+#rectangulo{
+    width:365px;
+    height:54px;
+    left: 648px;
+    top: 237px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    text-align: center;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+}
+
+#rectangulo2{
+    width: 141px;
+    height: 49px;
+    left: 767px;
+    top: 334px;
+    background: #F0A83E;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+}
+
+#patitanaranja{
+    display: block;
+    margin: auto;
+}
+
+#Titulo1{
+    color: #3C2313;
+    text-align: center;
+}
+
+#Comederos{
+    color: #666666;
+    text-align: center;
+}
+
+#Titulo2{
+    color: #3C2313;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+}
+
+#precio{
+    color: #F0A83E;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+}
+
+#Contactanos{
+    color: #3C2313;
+}
+
+#Contactanos2{
+    color: #FFFFFF;
+}
+
+.titulos{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+#contenedor{
+    margin: 6rem;
+}
+
+span{
+    font-weight: bold;
+    font-style: italic;
+}
+
+#footer1{
+    background-color: #F0A83E;
+    width: 1024px;
+    height: 60px;
+    left: calc(50% - 1024px/2);
+    top: calc(50% - 60px/2 + 575.5px);
+}
+
+#footer2{
+    background-color: #3C2313;
+}
+
+#footer3{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#sub1{
+    color: #8A8787;
+}
+#footer{
+    background-color: #222222;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+#margen-footer{
+    margin:2em;
+}
