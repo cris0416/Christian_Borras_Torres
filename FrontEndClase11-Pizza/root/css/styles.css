@@ -1,0 +1,118 @@
+h1{
+    font-family: "Roboto", sans-serif;
+}
+
+h2{
+    font-family: "Roboto", sans-serif;
+}
+
+h3{
+    font-family: "Roboto", sans-serif;
+}
+
+li{
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+header{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logocabeza1{
+    position: relative;
+    bottom: 30px;
+}
+
+#navegadorcabeza{ 
+    display: flex;
+}
+
+#navegadorcabeza p{
+    padding: 10px;
+}
+
+#medio{
+    display: flex;
+    justify-content: right;
+    justify-content: center;
+}
+
+#caja1{
+    width: 490px;
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    height: 350px;
+    left: 19px;
+    top: 135px;
+    float: initial;
+    margin: 10px;
+}
+
+#promocion{
+    position: relative;
+    display: flex;
+    justify-content: flex-start;
+}
+
+#Envio{
+    color: #FC200C;
+}
+
+#comprendo{
+    color: white;
+}
+
+#pizzas{
+    color: #FC200C;
+}
+
+#caja2{
+    width: 491px;
+    float: right;
+    float: inline-start;
+    margin: 10px;
+}
+
+#Podio{
+    color: #FC200C;
+    text-align: center;
+}
+
+#top{
+    position: relative;
+    left: 50px;
+}
+
+#lista{
+    font-weight: bold;
+}
+
+#ingredientescayendo{
+    position: relative;
+    left: 350px;
+    bottom: 130px;
+}
+
+footer{
+    background-color: #222222;
+    display: flex;
+    justify-content: space-between;
+}
+
+#logocabeza2{
+    position: relative;
+    bottom: 30px;
+}
+
+#navpie{
+    list-style: none;
+    color: #F3F3F3;
+}

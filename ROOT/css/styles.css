@@ -1,18 +1,10 @@
-#header{
-    background-image: url(../img/aurora.jpg);
-}
-
 #img-header{
     align-items: center;
 }
 
-h2 {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
 .titulos{
     background-color: #C4C4C4;
     color: #005677;
-    text-align: center;
 }
 
 #contenedor{
@@ -34,8 +26,4 @@ span{
 
 #margen-footer{
     margin:2em;
-}
-
-a {
-    color: #C4C4C4;
 }

@@ -22,7 +22,6 @@ p{
 #header{
     background-color: #222222;
     color: #F3F3F3;
-    position: relative;
 }
 
 #lista1{
@@ -50,22 +49,28 @@ p{
 }
 
 #rectangulo{
-    width:365px;
-    height:54px;
-    left: 648px;
-    top: 237px;
-    border-radius: 5px;
     background: #FFFFFF;
-    text-align: center;
-    position: absolute;
+    position: relative;
     font-family: "Roboto", sans-serif;
+    text-align: center;
+    width:400px;
+    height:30px;
+    top: 130px;
+    left: 600px;
+}
+
+#subtituloimg{
+    position: relative;
+    left: 650px;
+    top: 140px;
 }
 
 #rectangulo2{
+    position: relative;
     width: 141px;
     height: 49px;
-    left: 767px;
-    top: 334px;
+    left: 720px;
+    top: 150px;
     background: #F0A83E;
     border-radius: 5px;
     font-family: "Roboto", sans-serif;
