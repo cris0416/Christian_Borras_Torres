@@ -1,3 +1,7 @@
+body{
+    background-color: #F3F3F3;
+}
+
 h1{
     font-family: "Roboto", sans-serif;
 }
@@ -79,6 +83,7 @@ header{
     float: right;
     float: inline-start;
     margin: 10px;
+    background-color: white;
 }
 
 #Podio{

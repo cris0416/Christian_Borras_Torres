@@ -1,0 +1,163 @@
+#TituloUno{
+    background-color: #D1891C;
+    border: 0px;
+    color: #333333;
+    font-weight: bold;
+    margin: 0px;
+    padding-left: 1.5rem;
+}
+
+#TituloDos{
+    color: white;
+    background: #00669F;
+    height: 6rem;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+    box-shadow: 0px 10px 7px rgb(0 0 0 / 25%);
+    margin: 0px;
+}
+
+body{
+    background-color: #E5E5E5;
+}
+
+#Flex-container{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 5% 5%;
+    height: 100%;
+    width: 85%;
+}
+
+.corazon{
+    position: relative;
+    bottom: 70px;
+    right: 80px;
+}
+
+#Flex-itemBatman{
+    background-color: #F3F3F3;
+    background-image: url(/root/img/FondoBatman.png);
+    background-repeat: no-repeat;
+    border: 100px;
+    border-radius: 1rem 1rem 0 0;
+    box-sizing: content-box;
+    margin: 100px;
+    padding: 100px;
+    width: 300px;
+    height: 800px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+#Flex-itemMujer{
+    background-color: #F3F3F3;
+    background-image: url(/root/img/Temiscira.png);
+    background-repeat: no-repeat;
+    border: 100px;
+    border-radius: 1rem 1rem 0 0;
+    box-sizing: content-box;
+    margin: 100px;
+    padding: 100px;
+    width: 300px;
+    height: 800px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+#Flex-itemSuper{
+    background-color: #F3F3F3;
+    background-image: url(/root/img/FondoSuperman.png);
+    background-repeat: no-repeat;
+    border: 100px;
+    border-radius: 1rem 1rem 0 0;
+    box-sizing: content-box;
+    margin: 100px;
+    padding: 100px;
+    width: 300px;
+    height: 800px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+#Flex-itemHarley{
+    background-color: #F3F3F3;
+    background-image: url(/root/img/FondoHarley.png);
+    background-repeat: no-repeat;
+    border: 100px;
+    border-radius: 1rem 1rem 0 0;
+    box-sizing: content-box;
+    margin: 100px;
+    padding: 100px;
+    width: 300px;
+    height: 800px;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+.Foto{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+    position: relative;
+    top: 100px;
+    right: 20px;
+    
+}
+
+.NombreSuper{
+    position: relative;
+    top: 90px;
+    left: 90px;
+
+}
+
+.texto{
+    position: relative;
+    top: 100px;
+}
+
+#boton{
+    background-color: #00669F;
+    color: #F3F3F3;
+    height: 80px;
+    position: relative;
+    left: 50px;
+    width: 200px;
+    top: 100px;
+}
+
+#botonsticky{
+    border-radius: 50%;
+    background-color: #00669F;
+    color: #FFFFFF;
+    position: fixed;
+    right: 1rem;
+    bottom: 6rem;
+    width: 50px;
+    height: 50px;
+}
+
+#Pie{
+    color: white;
+    background: #00669f;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#titulopie{
+    position: relative;
+    left: 40%;
+}
+
+#GitHub{
+    display: flex;
+    align-self: flex-end;
+    width: 5rem;
+}
+
+@media (min-width: 460px){
+    /* Tablets */
+}

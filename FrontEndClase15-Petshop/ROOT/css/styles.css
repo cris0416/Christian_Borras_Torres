@@ -1,0 +1,236 @@
+@media (min-width: 481px){
+    /*Tablet*/
+}
+
+h1, 
+h2, 
+h3, 
+h4, 
+p{
+    font-family: "Roboto", sans-serif;
+}
+
+#Flex-container{
+    display: block;
+    block-size: content-box;
+}
+
+#var{
+    background-color: #222222;
+    color: #F3F3F3;
+    display: flex;
+    justify-content: space-between;
+    font-style: normal;
+    margin: 0px;
+    padding-left: 40px;
+    height: 40px;
+}
+
+#lista1{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-right: 50px;
+
+}
+
+#nav{
+    background-color: #F0A83E;
+    color: #FFFFFF;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#imagennav{
+    display: flex;
+    align-self: center;
+    width: 15%;
+    height: 15%;
+    padding-left: 8%;
+}
+
+#lista2{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+#seccionimagen{
+    background-image: url(/img/unknown.png);
+    background-position: cover;
+    background-size: 100%;
+    font-family: "Roboto", sans-serif;
+    background-repeat: no-repeat;
+    margin: 0px;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+
+#rectangulo{
+    background: #FFFFFF;
+    position: absolute;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    display: block;
+    width:400px;
+    height:40px;
+    top: 200px;
+    left: 1000px;
+}
+
+#subtituloimg{
+    position: absolute;
+    left: 1100px;
+    top: 280px;
+}
+
+#rectangulo2{
+    position: absolute;
+    width: 141px;
+    height: 49px;
+    left: 60%;
+    top: 350px;
+    background: #F0A83E;
+    border-radius: 5px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+#patitanaranja{
+    display: block;
+    margin: auto;
+    width: 90px;
+    height: 90px;
+}
+
+#Titulo1{
+    color: #3C2313;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+#Comederos{
+    color: #666666;
+    text-align: center;
+}
+
+#mediodos{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.imagenesmedio{
+    width: 280px;
+    height: 280px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#Titulo2{
+    color: #3C2313;
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 80px;
+}
+
+#precio{
+    color: #F0A83E;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 18px;
+    position: relative;
+    left: 120px;
+}
+
+#Contactanos{
+    color: #3C2313;
+    display: flex;
+    justify-content: center;
+}
+
+#Contactanos2{
+    bottom: 130px;
+    color: #FFFFFF;
+    position: relative;
+    left: 600px;
+    margin: 150px;
+}
+
+.titulos{
+    background-color: #C4C4C4;
+    color: #005677;
+}
+
+#contenedor{
+    margin: 6rem;
+}
+
+#footer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#footer1{
+    background-color: #F0A83E;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    color: #FFFFFF;
+}
+
+#footer2{
+    background-color: #3C2313;
+    margin: 0%;
+    width: 100%;
+    color: #FFFFFF;
+    padding-left: 60px;
+}
+
+.footerh3{
+    position: relative;
+    bottom: 10px;
+
+}
+
+#footer3{
+    background-color: #222222;
+    color: #FFFFFF;
+    text-align: center;
+    margin: 0%;
+    width: 100%;
+}
+
+#sub1{
+    color: #8A8787;
+    position: relative;
+    left: 70px;
+    bottom: 20px;
+}
+
+#logofooter{
+    position: relative;
+    left: 1600px;
+    bottom: 200px;
+}
+
+#margen-footer{
+    margin:2em;
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/root/css/styles.css">
+    <title>Añadir héroe</title>
+</head>
+<body>
+    <var class="var">
+        <p id="pvar">20% de descuento en todos los productos!</p>
+    </var>
+    <header>
+        <div>
+            <img src="/root/img/tienda.png" alt="Logo header">
+            <h2>Nombre Tienda</h2>
+        </div>
+        <nav class="nav">
+            <ul>
+                <li><a href="#">Contacto</a></li>
+                <li><a href="#">Registrarme</a></li>
+                <li><a href="#">Ingresar</a></li>
+                <li><a href="#">Volver</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="form">
+        <div class="caja">
+            <h1>¡Añadí tu súper!</h1>
+            <p>Agregá tu personaje favorito completando las opciones.</p>
+            <form action="">
+                <div class="formDos">
+                    <div class="formTres">
+                        <label class="required subtitulo" for="nombre">Nombre</label>
+                        <br>
+                        <input type="text" id="nombre" required>
+                    </div>
+                    <div class="formTres">
+                        <label class="required subtitulo" for="especies">Especie</label>
+                        <br>
+                        <select name="especies" id="especies" required>
+                            <option value="" selected disabled>Especie</option>
+                            <option value="A">Atlante</option>
+                            <option value="D">Dios</option>
+                            <option value="E">Eterno</option>
+                            <option value="H">Humano</option>
+                            <option value="K">Kryptoniano/a</option>
+                            <option value="M">Marciano</option>
+                            <option value="MU">Mutante</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="formDos">
+                    <div class="formTres">
+                        <label class="subtitulo" for="fecha">Fecha</label>
+                        <br>
+                        <input type="date" id="fecha">
+                    </div>
+                    <div class="formTres">
+                        <label class="subtitulo" for="foto">Agregar Foto</label>
+                        <br>
+                        <input type="file" id="foto">
+                    </div>
+                </div>
+                <div class="formDos">
+                    <div class="formTres">
+                        <textarea name="descripcion" id="descripcion" placeholder="Descripción"></textarea>
+                    </div>
+                    <div class="formTres">
+                        <label class="subtitulo" for="poderes">Poderes</label>
+                        <br>
+                        <div class="poderes">
+                            <div>
+                                <input type="checkbox" id="poderuno" name="poderuno" value="0"><label for="poderuno">Volar</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="poderdos" name="poderdos" value="1"><label for="poderdos">Superinteligencia</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="podertres" name="podertres" value="2"><label for="podertres">Vista de rayo láser</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" id="podercuatro" name="podercuatro" value="3"> <label for="podercuatro">Billetera gorda</label>
+                            </div>
+                        </div>
+                        <hr>
+                        <label class="subtitulo" for="tipo">Tipo de personaje</label>
+                        <br>
+                        <div class="tipo">
+                            <input type="radio" name="tipo" id="heroe">
+                            <label for="heroe">Héroe / Heroina</label>
+                        </div>
+                        <div class="tipo">
+                            <input type="radio" name="tipo" id="villano">
+                            <label for="villano">Villano / Villana</label>
+                        </div>
+                    </div>
+                </div>
+                <div class="formDos boton">
+                    <button>Añadir</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+    <footer>
+        <p>Todos los derechos reservados a Christian Borrás</p>
+    </footer>
+</body>
+</html>

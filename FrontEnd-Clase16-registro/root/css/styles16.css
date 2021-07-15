@@ -1,0 +1,149 @@
+/**GENERAL**/
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/** HEADER **/
+
+header {
+    display: block;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+
+#top{
+    font-style: normal;
+    height: 2rem;
+    background-color: #1CD1B0;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.5rem;
+}
+
+header div {
+    color: white;
+    background: #00669F;
+    height: 6rem;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+
+/**MAIN FORM**/
+
+#form {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 400px;
+}
+
+#Titulo{
+    font-size: 50px;
+}
+
+#name{
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#email{
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#password{
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#pais{
+    border-radius: 5px;
+    width: 400px;
+    height: 30px;
+    margin-top: auto;
+    margin-bottom: 10px;
+}
+
+#botonReset {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #888888;
+    color: #FFFFFF;
+    border-radius: 5px;
+    font-weight: bolder;
+}
+
+#botonRegis {
+    margin-top: 30px;
+    width: 200px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #1CD1B0;
+    color: #000000;
+    border-radius: 5px;
+    font-weight: bolder;
+    position: relative;
+    top: 305px;
+    right: 200px;
+}
+
+.registro{
+    margin-bottom: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: relative;
+    right: 100px;
+    
+}
+
+#Texto{
+    position: relative;
+    bottom: 16px;
+}
+    
+/**FOOTER**/
+
+footer {
+    color: white;
+    background: #00669f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+
+
+
+
+

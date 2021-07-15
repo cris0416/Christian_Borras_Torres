@@ -1,0 +1,277 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+p{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+header {
+    display: block;
+}
+
+.sticky {
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
+.var{
+    height: 2rem;
+    background-color: #1CD1B0;
+    color: #333333;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 1.5rem;
+    margin: 0%;
+}
+
+#pvar{
+    font-weight: 500px;
+    font-style: normal;
+}
+
+header div {
+    color: white;
+    background: #00669F;
+    height: 6rem;
+    display: flex;
+    padding: 0 2rem;
+    align-items: center;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+}
+
+header h2 {
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.nav {
+    height: 2.5rem;
+    background-color: #001D2D;
+}
+
+.nav ul {
+    text-align: end;
+    margin-right: 1.5rem;
+    padding: 0.5rem;
+}
+.nav li {
+    display: inline;
+    padding-left: 1rem;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+.caja {
+    padding: 3rem;
+    margin: 3rem;
+    width: 50rem;
+    height: 50rem;
+    background-color: #00669F;
+    border-radius: 1rem;
+    text-align: center;
+    color: white;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+}
+
+.formDos {
+    display: flex;
+    margin-top: 2rem;
+}
+
+.formTres{
+    width: 100%;
+    text-align: left;
+}
+
+.subtitulo {
+    font-size: 20px;
+}
+
+.required::before {
+    content: '*';
+    margin-right: 0.2rem;
+    color: white;
+}
+
+#descripcion{
+    height: 257px;
+}
+
+.caja h1 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 1rem;
+}
+
+.caja input, select{
+    padding-left: 0.7rem;
+}
+
+.caja input#fecha, input#nombre, select {
+    border-radius: 0.7rem;
+    height: 2.5rem;
+    width: 90%;
+    background-color: white;
+    margin: 1rem 0;
+}
+
+.caja textarea {
+    border-radius: 0.7rem;
+    height: 45vh;
+    width: 85%;
+    padding: 1rem;
+}
+
+.caja input#foto {
+    font-size: 12px;
+    width: 100%;
+    color: black;
+}
+
+.caja input[type=file]::-webkit-file-upload-button {
+    font-size: 13px;
+    text-align: left;
+    width: 60%;
+    border-radius: 0.5rem;
+    background-color: #CECECE;
+    height: 2rem;
+    border: 0;
+    margin-right: 1rem;
+}
+
+.caja input#foto{
+    margin: 1rem 0;
+    padding: 0;
+}
+
+.caja .poderes {
+    margin-top: 1rem;
+}
+
+.caja .poderes div {
+    margin-bottom: 1rem;
+}
+
+.caja .poderes label {
+    display: inline;
+    font-family: 'Karla', sans-serif;
+    margin: 1rem;
+}
+
+.caja .poderes input {
+    position: relative;
+    top: 0.2rem;
+}
+
+input[type="checkbox"] {
+    width: 1rem;
+    height: 1rem;
+}
+
+input[type="checkbox"]:checked {
+    position:relative;
+}
+
+input[type="checkbox"]:checked:before {
+    content: '';
+    background: #36CDFA;;
+    background-image: url('../img/check.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.3rem;
+}
+
+hr {
+    margin: 1rem 0;
+    width: 100%;
+    background-color: white;
+    height: 0.5px;
+    align-self: left;
+}
+
+.caja .tipo {
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.caja .tipo label{
+    margin-left: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+input[type="radio"] {
+    width: 1rem;
+    height: 1rem;
+}
+
+input[type="radio"]:checked {
+    position:relative;
+}
+
+input[type="radio"]:checked:before {
+    content: '';
+    background: #36CDFA;;
+    position: absolute;
+    width: 0.5rem;
+    height: 0.5rem;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 0.3rem;
+}
+
+.boton {
+    justify-content:center;
+}
+
+.boton button {
+    background-color: #1CD1B0;
+    width: 50%;
+    height: 4rem;
+    border-radius: 10px;
+    font-size: 1.5vw;
+    font-weight: bold;
+    font-weight: 700;
+    font-size: 30px;
+    margin-top: 1.5rem;
+    padding: 0;
+}
+
+.boton button:active {
+    background-color: #001D2D;
+    color: #ffffff;
+}
+
+footer {
+    color: white;
+    background: #00669f;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    height: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
+}
+
+footer p {
+    position: relative;
+    left: 35%;
+}
+
